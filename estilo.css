@@ -1,0 +1,189 @@
+:root{
+    --cor0: #ffffff;
+    --cor1: #FFC800;
+    --cor2: #E6B400;
+    --cor3: #BF9600;
+    --cor4: #806400;
+    --cor5: #403200;
+}
+.autoDesejo{
+    margin: 0px;
+    padding-top: 10px;
+    font-size: 30px;
+
+}
+.autoDesejo2{
+    color: white;
+    margin: 10px;
+    padding: 5px;
+    font-size: 30pt;
+
+}
+p{margin:0px;}
+body{
+    font-family: arial;
+    font-size: 20pt;
+}
+.botao1{
+    width: 100%;
+    background-color: var(--cor2);
+    border-width: 1;
+    font-size: 30pt;
+    margin-bottom: 20px;
+}
+.botao2{
+    display: block;
+    margin: 0 auto;
+    width: 75%;
+    background-color: var(--cor2);
+    border-width: 1;
+    font-size: 30pt;
+    margin-bottom: 10px;
+}
+.caixaProd{
+    margin: 5px;
+    width: 250px;
+    min-width: 250px;
+    height: 100%;
+    background-color: var(--cor0);
+    padding: 5px;
+
+    
+}
+.capaMonges{
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+.cabecalhoSite{
+    background-color: VAR(--cor1);
+    padding: 10px 5px;
+    position: fixed;
+    padding: px;
+    margin-top: -10px;
+}
+.cardMudar{
+    font-size: 30pt;
+    width: 50px;
+    
+}
+.cardApagar{
+    font-size: 30pt;
+    width: 200px;
+}
+.cardDesejo{
+    background-color: white;
+    width: 90%;
+    margin: 10px auto;
+    text-align: center;
+    padding: 5px;
+}
+.cardDesejoTitulo{
+    font-weight: bolder;
+    font-size: 30px;
+}
+#card{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: var(--cor5);
+    visibility: hidden;
+}
+.carrinhoMini{
+    background-color: var(--cor5);
+    width: 10%;
+    padding: 10px 0;
+    position: fixed;
+    margin-top: 50px;
+    margin-left: 89%;
+    border-radius: 8px 0px 0px 8px;
+
+}
+.destaquesAnuncio{
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: -400px;
+}
+#destaqueBox{
+    visibility: hidden;
+}
+.destaques{
+    background-color: var(--cor1);
+    height: 30%;
+    width: 100%;
+    padding: 5px 0;
+    display: flex;
+    flex-direction: row;
+    overflow-x: hidden;
+    overflow-x: scroll;
+}
+.imgCarrinho{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+.imagemProd{
+    margin-top: 10px;
+    display: block;
+    margin: 0 auto;
+    height: 160px;
+    width: 160px;
+    margin-bottom: 20px;
+}
+#listaCarrinho{
+    margin-top: 10px;
+    display: block;
+    margin: 0 auto;
+    width: 77%;
+    height: 45%;
+    background-color: yellow;
+    overflow-y: hidden;
+    overflow-y: scroll;
+    overflow-x: inherit;
+}
+main{
+    padding-top: 32%;
+}
+.principal{
+    width: 87%;
+}
+.paginaProdutos{
+    margin-top: 1%;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    width: 87%;
+    height: 75%;
+    visibility: hidden;
+    margin-top: -10px;
+    overflow-y: hidden;
+    overflow-y: scroll;
+    
+}
+.tituloTema{
+    text-align: center;
+}
+.tituloProd{
+    vertical-align: auto;
+    margin: 0;
+    text-align: center;
+    font-size: 27pt;
+    width: auto;
+    font-weight: normal;
+    height: 138px;
+}
+.valorProd{
+    text-align: center;
+    margin: 0;
+    font-size: 32pt;
+}
+#voltar{
+    display: block;
+    margin: 10px auto;
+}
+.hiddenP{
+    visibility: hidden;
+    height: 0px;
+}
+

@@ -1,0 +1,61 @@
+<!--view mobile em 50%-->
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="estilo.css">
+        <title>MONGES BIER DELIVERY</title>
+    </head>
+    <body>
+        <header class="cabecalhoSite">                                                                                                                                                                                
+            <img src="capa.png" class="capaMonges">
+        </header>
+        <main>
+            <!--PAGINA DE PRODUTOS-->
+            <section id="paginaProdutos" class="paginaProdutos">
+                <button id="voltar" class="botao1" onclick="fecharProdutos()">VOLTAR AO INICIO</button>
+                <div id="listaProdutos"></div>
+            </section>
+            <!--CARRINHO-->
+            <section id="card">
+                <div id="listaCarrinho">
+                </div>
+                <div>
+                    <label class="autoDesejo2">TOTAL</label>
+                    <label class="autoDesejo2" id="totalCard">R$00,00</label><BR>
+                    <button class="botao2">PROSSEGUIR</button>
+                    <button class="botao2" onclick="abrirFecharCard()">VOLTAR AS COMPRAS</button>
+                </div>
+            </section>
+            <!--CARRINHO MINIMIZADO-->
+            <section>
+                <div class="carrinhoMini" onclick="abrirFecharCard()" >
+                    <img src="carrinho.png" class="imgCarrinho">
+                </div>
+            </section>
+            
+
+            <section class="principal">
+                <h2 class="tituloTema"></h2>
+                <img class="destaquesAnuncio" id="anuncio" src="imagens/anuncios/05.png">
+                <div class="destaques" id="destaqueBox"></div>
+
+                <h2 class="tituloTema">OPÇÕES</h2>
+
+                <button class="botao1" onclick="abrir(0)">CERVEJA</button>
+                <button class="botao1" onclick="abrir(1)">DESTILADOS</button>
+                <button class="botao1" onclick="abrir(2)">VINHOS</button>
+                <button class="botao1" onclick="abrir(3)">REFRIGERANTES</button>
+                <button class="botao1" onclick="abrir(4)">SALGADINHOS</button>
+                <button class="botao1" onclick="abrir(5)">PETISCOS</button>
+                <button class="botao1" onclick="abrir(6)">CHURRASCO</button>
+                <button class="botao1" onclick="abrir(7)">OUTROS</button>
+            </section>
+        </main>
+        
+
+        <script src="produtos.js"></script>
+        <script src="js.js"></script>
+    </body>
+</html>
